@@ -1,0 +1,62 @@
+//
+// Variables
+//
+// Defualt style variables values
+// --------------
+
+
+// Bullets Color
+$black:			#000;
+$grey:			#555;
+$greyLight:		#999;
+$greyLighter:	#eee;
+
+
+// High lights
+$red:			#d45252;
+$yellow:		#ffc40d;
+$orange:		#f89406;
+$green:			#89ff89;
+$darkgrey:  #555;
+$lightgrey: #D3D3D3;
+$black:     #000;
+$white:     #ffffff;
+$blue10:    #45c5ff;
+$blue-10:   #1f9ad2;
+
+
+$bgThemeBlue: #29b6f6;
+$bgThemeOrange: #ff9800;
+
+// Scaffolding
+// ---------------
+
+
+// Media width parameters ( Media type )
+// ---------------
+// Tablet or Phone
+// Navigation change to drop down
+// Section -> standard view style
+$tablet:   max-width 1000px;
+
+$midTablet: max-width 730px;
+
+// Phone
+// Navigation -> drop down
+// Section -> vertical align...
+$phone: max-width 600px;
+
+
+// Typography
+// ---------------
+$sansFont:        "Helvetica Neue", Helvetica, Arial, sans-serif;
+$serifFont:       Georgia, "Times New Roman", Times, serif;
+
+$baseFontSize:		0.9em;
+$title:             2em; 
+$subTitle:          1.2em;
+$subject:           0.9em;
+$h4:              	1em;
+
+
+

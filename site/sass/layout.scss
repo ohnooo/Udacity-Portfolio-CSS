@@ -1,0 +1,45 @@
+@import "compass";
+@import "compass/reset";
+@import "susy";
+@import "breakpoint";
+@import "partials/variables";
+@import "partials/mixin";
+
+/*
+ *
+ * Themeing with Sass
+ * http://www.sitepoint.com/theming-form-elements-sass/
+ *
+*/
+
+// Layout Sass config
+
+$susy: (
+
+	flow:ltr,
+	math: fluid,
+	output: float,
+	gutter-position: after,
+	container: 1140px,
+	container-position:center,
+	columns:12,
+	gutters: 0.128,
+	column-width:false,
+	global-box-sizing: content-box,
+	last-flow: to,
+
+);
+
+.container{
+	position:relative;
+	@include container;
+	padding:0 1.5em;
+	//clear:both;
+}
+
+.container::after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+
